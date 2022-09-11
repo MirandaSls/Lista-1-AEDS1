@@ -1,0 +1,195 @@
+***Não sabia o que voce estava pedindo com massa de teste então fiz testes de cada questão com resultados dando true e dando false 
+
+1 -------------------------------------------------------------------------------------------------------------------------------
+Ler um valor inteiro do teclado e dizer se e par
+Digite um numero:6
+e par(6) ? 1
+
+
+
+Ler um valor inteiro do teclado e dizer se e par
+Digite um numero:5
+e par(5) ? 0
+
+
+2 -------------------------------------------------------------------------------------------------------------------------------
+Ler um valor inteiro do teclado e dizer se e impar
+Digite um numero:5
+e impar(5) ? 1
+
+
+
+Ler um valor inteiro do teclado e dizer se e impar
+Digite um numero:6
+e impar(6) ? 0
+
+
+
+3 -------------------------------------------------------------------------------------------------------------------------------
+ler um valor inteiro do teclado e dizer se impar e maior que 100
+Digite um numero:125
+o numero e impar e maior que 100(125) ? 1
+
+
+
+ler um valor inteiro do teclado e dizer se impar e maior que 100
+Digite um numero:25
+o numero e impar e maior que 100(25) ? 0
+
+
+
+
+ler um valor inteiro do teclado e dizer se impar e maior que 100
+Digite um numero:126
+o numero e impar e maior que 100(126) ? 0
+
+
+4 -------------------------------------------------------------------------------------------------------------------------------
+ler um valor inteiro do teclado e dizer se e par e menor que 100, ou impar e maior que 100
+Digite um numero:105
+o numero e par e menor que 100(105) ? 0
+o numero e impar e maior que 100(105) ? 1
+
+
+
+ler um valor inteiro do teclado e dizer se e par e menor que 100, ou impar e maior que 100
+Digite um numero:106
+o numero e par e menor que 100(106) ? 0
+o numero e impar e maior que 100(106) ? 0
+
+
+5 -------------------------------------------------------------------------------------------------------------------------------
+ler um valor inteiro do teclado e dizer se pertence ao intervalo aberto entre (25:75)
+Digite um numero:26
+O numero (26) esta entre 25 e 75? 1
+
+
+
+ler um valor inteiro do teclado e dizer se pertence ao intervalo aberto entre (25:75)
+Digite um numero:25
+O numero (25) esta entre 25 e 75? 0
+
+
+6 -------------------------------------------------------------------------------------------------------------------------------
+ler um valor inteiro do teclado e dizer se pertence ao intervalo fechado entre [25:75]
+Digite um numero:25
+O numero (25) esta entre 25 e 75? 1
+
+
+7 -------------------------------------------------------------------------------------------------------------------------------
+ler um valor inteiro do teclado e dizer se pertence aos intervalos fechados [15:45] ou [66:99]
+Digite um numero:15
+O numero (15) esta entre 15 e 45? 1
+O numero (15) esta entre 66 e 99? 0
+
+
+
+ler um valor inteiro do teclado e dizer se pertence aos intervalos fechados [15:45] ou [66:99]
+Digite um numero:66
+O numero (66) esta entre 15 e 45? 0
+O numero (66) esta entre 66 e 99? 1
+
+
+8 -------------------------------------------------------------------------------------------------------------------------------
+ler dois valores inteiros do teclado e dizer se o primeiro e par e o segundo e impar
+Digite um numero:6
+Digite outro numero:5
+O numero (6) e par? 1
+O numero (5) e impar? 1
+
+
+
+ler dois valores inteiros do teclado e dizer se o primeiro e par e o segundo e impar
+Digite um numero:5
+Digite outro numero:6
+O numero (5) e par? 0
+O numero (6) e impar? 0
+
+
+9 -------------------------------------------------------------------------------------------------------------------------------
+ler dois valores inteiros do teclado e dizer se o primeiro e par e positivo, e o segundo e impar e negativo
+Digite um numero:6
+Digite outro numero:-5
+e par(6) ? 1
+e impar(-5) ? 1
+
+ler dois valores inteiros do teclado e dizer se o primeiro e par e positivo, e o segundo e impar e negativo
+Digite um numero:7
+Digite outro numero:-8
+e par(6) ? 0
+e impar(-5) ? 0
+
+
+10 ------------------------------------------------------------------------------------------------------------------------------
+ler dois valores reais do teclado e dizer se o primeiro e maior, menor ou igual ao segundo
+Digite um numero: 5
+Digite outro numero: 6
+O numero (5) e maior que o (6)? 0
+O numero (5) e menor que o (6)? 1
+O numero (5) e igual que o (6)? 0
+
+ler dois valores reais do teclado e dizer se o primeiro e maior, menor ou igual ao segundo
+Digite um numero: 6
+Digite outro numero: 5
+O numero (6) e maior que o (5)? 1
+O numero (6) e menor que o (5)? 0
+O numero (6) e igual que o (5)? 0
+
+ler dois valores reais do teclado e dizer se o primeiro e maior, menor ou igual ao segundo
+Digite um numero: 6
+Digite outro numero: 6
+O numero (6) e maior que o (6)? 0
+O numero (6) e menor que o (6)? 0
+O numero (6) e igual que o (6)? 1
+11 ------------------------------------------------------------------------------------------------------------------------------
+ler tres valores reais do teclado e dizer se o primeiro esta entre os outros dois
+Digite o primeiro numero: 4
+Digite o segundo numero: 2
+Digite o terceiro numero: 5
+O numero (4.000000) esta entre o (2.000000) e (5.000000)? 1
+
+ler tres valores reais do teclado e dizer se o primeiro esta entre os outros dois
+Digite o primeiro numero: 4
+Digite o segundo numero: 5
+Digite o terceiro numero: 7
+O numero (4.000000) esta entre o (5.000000) e (7.000000)? 0
+12 ------------------------------------------------------------------------------------------------------------------------------
+ler tres valores reais do teclado e dizer se o primeiro nao esta entre os outros dois
+Digite o primeiro numero: 5
+Digite o segundo numero: 7
+Digite o terceiro numero: 8
+O numero (5.000000) nao esta entre (7.000000) e (8.000000)? 0
+13 ------------------------------------------------------------------------------------------------------------------------------
+ller tres valores literais (caracteres) do teclado e dizer se o primeiro esta entre os outros dois
+Digite uma letra: b
+Digite uma segunda letra: a
+Digite uma terceira letra: d
+O (b) esta entre (a) e (d)? 1
+
+ler tres valores literais (caracteres) do teclado e dizer se o primeiro esta entre os outros dois
+Digite uma letra: a
+Digite uma segunda letra: b
+Digite uma terceira letra: c
+O (a) esta entre (b) e (c)? 0
+14 ------------------------------------------------------------------------------------------------------------------------------
+ler tres valores literais (caracteres) do teclado e dizer se estao em ordem crescente lexicograficamente
+Digite uma letra: a
+Digite uma segunda letra: b
+Digite uma terceira letra: c
+A letra (a) esta em ordem alfabetica com a letra (b) e (c)? 0
+
+
+ler tres valores literais (caracteres) do teclado e dizer se estao em ordem crescente lexicograficamente
+Digite uma letra: b
+Digite uma segunda letra: a
+Digite uma terceira letra: d
+A letra (b) esta em ordem alfabetica com a letra (a) e (d)? 0
+
+15 ------------------------------------------------------------------------------------------------------------------------------
+ler um valor literal (caractere) do teclado e dizer se e uma letra maiuscula
+Digite uma letra: A
+A letra (A) esta em minusculo? 1
+
+ler um valor literal (caractere) do teclado e dizer se e uma letra maiuscula
+Digite uma letra: a
+A letra (a) esta em minusculo? 0

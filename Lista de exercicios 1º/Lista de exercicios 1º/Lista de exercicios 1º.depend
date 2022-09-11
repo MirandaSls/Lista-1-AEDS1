@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1648393661 source:c:\users\arthu\onedrive\documentos\estudos\c\teste\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<math.h>
+
+1648415013 source:c:\users\arthu\onedrive\documentos\estudos\c\lista de exercicios 1º\lista de exercicios 1º\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+	<locale.h>
+
+1648415014 source:c:\users\arthu\documents\estudos\c\lista de exercicios 1º\lista de exercicios 1º\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+	<locale.h>
+

@@ -1,0 +1,271 @@
+1) Classifique os conteúdo das variáveis abaixo de acordo com seu tipo, assinalando com I os dados inteiros, R os 
+dados Reais e com C os literais.
+(I) 0
+(C) "abc"
+(C) "João"
+(R) 5.7
+(I) 1012
+(I) -49
+(I) +342
+(I) 569
+(C) "Lucas"
+(C) "VERDADEIRO"
+(R) 0.00001
+(I) -545
+(C) " 444 "
+
+2) Assinale com um X os nomes de variáveis válidos.
+(x) abc
+( ) 3abc
+(x) a
+( ) 123a
+( ) –a
+(x) acd1
+(x) ABC DE
+( ) etc.
+(x) b316
+(x) leia
+(x) inteiro
+(x) imprima
+(x) valor
+( ) _b248
+( ) nota*do*aluno
+(x) a1b2c3
+( ) 3 x 4
+(x) leia
+( ) -_ad
+( ) A&a
+( ) guarda-chuva
+(x) A123
+(x) Aa
+(x) guarda_chuva
+( ) km/h
+( ) 3xyz
+( ) nome empresa
+(x) sala_215
+( ) “nota”
+( ) ah!
+
+3)
+
+01. x = 0
+02. y = 3.500000
+03. z = A
+04. x = 65 -> A
+05. x = 3 -> 3.500000
+06. z = a -> 97
+07. z = 0 -> 48
+08. x = 0 -> 0
+
+----------------
+
+09. x = 1 -> 1
+10. x = 0 -> 1
+11. x = 1 -> 1
+12. x = 1 -> 1
+13. w = 1 < 3.500000 = 1
+14. w = 1 <= 3.500000 = 1
+15. w = 3.500000 > 1 = 1
+16. w = 3.500000 >= 1 = 1
+
+---------------------------
+
+17. é par  (4) ? 1
+18. é impar  (4) ? 0
+19. é minuscula  (x) ? 1
+20. é maiuscula  (x) ? 0
+21. é 0 ou 1 (0) ? 1
+
+4)
+
+a) 
+var 
+	num,su : inteiro
+Inicio
+	Escreva("Digite um numero: ")
+	leia(num)
+	su <= num + 1
+	Escreva("O sucessor do número é:",su)
+Fimalgoritimo
+
+b)
+Var
+	n1,n2,n3,n4,r : inteiro
+Inicio
+	Escreva("Digite um número: ")
+	leia(n1)
+	Escreva("Digite um segundo numero: ")
+	leia(n2)
+	Escreva("Digite um terceiro numero: ")
+	leia(n3)
+	Escreva("Digite um quarto numero: ")
+	leia(n4)
+	r <= (n1 + n2 + n3 + n4) / 4
+	Escreva("A media aritimetica dos numeros é: ",r)
+Fimalgoritimo
+
+c)
+Var
+	n1,n2,n3,p1,p2,p3,M : real
+Inicio
+	Escreva("Digite sua primeira nota:")
+	leia(n1)
+	Escreva("Digite sua segunda nota:")
+	leia(n2)
+	Escreva("Digite sua terceira nota:")
+	leia(n3)
+	Escreva("Digite o peso da primeira nota:")
+	leia(p1)
+	Escreva("Digite o peso da segunda nota:")
+	leia(p2)
+	Escreva("Digite o peso da terceira nota:")
+	leia(p3)
+	M <= (n1 * p1 + n2 * p2 + n3 * p3) / (p1 + p2 + p3)
+	Escreva("A media pondera das suas notas é:", M)
+FImalgoritimo
+
+d)
+Var 
+	c,f : real
+Inicio
+	Escreva("Digite a temperatura em Celsius: ")
+	leia(c)
+	f <= 9 * C + 160 / 5
+	Escreva("A temperatura em Fahrenhait é: ",f)
+FImalgoritimo
+
+e)
+Var
+	Salario,paumento,nsalario,aumento : real
+Inicio
+	Escreva("Digite o valor total do seu salario: ")
+	leia(salario)
+	Escreva("Digite a % de aumento do salario: ")
+	leia(paumento)
+	aumento <= salario * paumento / 100
+	nsalario <= aumento + salario
+	Escreva("Seu novo salario é de: ",nsalario)
+Fimalgoritimo
+
+f)
+Var
+	base,altura,area : real
+Inicio
+	Escreva("Digite a base do triangulo: ")
+	leia(base)
+	Escreva("Digite a altura do triangulo: ")
+	leia(altura)
+	area <= (base * altura) / 2
+	Escreva("A area do triangulo é: ",area)
+Fimalgoritimo
+
+g)
+Var
+	quilos,gramas,rgato,r : inteiro
+Inicio
+	Escreva("Digite quanto pesa o saco de ração em quilos: ")
+	leia(quilos)
+	Escreva("Digite quanto de ração para cada gato em gramas: ")
+	leia(rgato)
+	gramas <= quilos * 1000
+	r <= ((rgato * 2 * 5) - gramas) / 1000
+	Escreva("Sobraram",r,"quilos no saco de ração apos 5 dias")
+Fimalgoritimo
+
+h)
+Var 
+	a,b,c : inteiro
+Inicio
+	Escreva("Digite o valor de a: ")
+	leia(a)
+	Escreva("Digite o valor de b: ")
+	leia(b)
+	c <= a
+	a <= b
+	b <= c
+	Escreva("O valor de a é",a,"e o valor de b é",b)
+Fimalgoritimo
+
+i)
+Var
+	a,res : int
+Inicio
+	Escreva("Digite um numero: ")
+	leia(a)
+	res <= resto(a,7)
+	Escreva("O resto da divisão por 7 é:",res)
+Fimalgoritimo
+
+j)
+Var
+	A1,n,r,A2,An,Sn : inteiro
+Inicio
+	Escreva("Digite o primeiro termo: ")
+	leia(A1)
+	Escreva("Digite o segundo termo: ")
+	leia(A2)
+	Escreva("Digite o numero de termos da P.A: ")
+	leai(n)
+	r <= A1 - A2
+	An = A1 + (n - 1) * 5
+	Sn = (n * (A1 + An)) / 2
+	Escreva("A soma dos termos da P.A é ",Sn)
+Fimalgoritimo
+	
+	
+	 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
